@@ -7278,6 +7278,24 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
+mobiledoc-dom-renderer@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/mobiledoc-dom-renderer/-/mobiledoc-dom-renderer-0.7.0.tgz#53ab5f14dd612b16f03513390e5cbcc2b89f6979"
+  integrity sha512-A+gT6D4Ru3DKY7ZYOBRORmwhRJ7rDj2vy75D2dWuZS5NgX0mCmGs0yN7qs48YlxvfCif8RFpYsaaPg6Kc3MdJg==
+
+mobiledoc-kit@^0.13.3:
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/mobiledoc-kit/-/mobiledoc-kit-0.13.3.tgz#d2af134f2b9142bd335b1b5012d1fb12358102be"
+  integrity sha512-616ziNPr88xLcEMuqrfavIjJQbNcvrRUmofgaLBsfprVO1nqKUrsGlr56p/SQEMlXKxbAk4GIAQ3y/Cqmfc/uw==
+  dependencies:
+    mobiledoc-dom-renderer "0.7.0"
+    mobiledoc-text-renderer "0.4.1"
+
+mobiledoc-text-renderer@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/mobiledoc-text-renderer/-/mobiledoc-text-renderer-0.4.1.tgz#a3dbab2771e209faf208736fd44e2e040ceb76fc"
+  integrity sha512-lTu8zCjcBJPRMaHeqoS1vECw3hczxQQjdmqtGSKa3yGHIuozmcWqOGPGrrIcsc4W018dAG/nPdsJiUp+9UkWGw==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -9027,6 +9045,13 @@ react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
+
+react-mobiledoc-editor@^0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/react-mobiledoc-editor/-/react-mobiledoc-editor-0.12.2.tgz#a232332acecf41c8ea998ba43fcbf73c9874de35"
+  integrity sha512-awXMBzYNVcGkCDtdY2yHn2zFMvZtjVWGc+5ktJzbkD5Eiw5QHzE4r/ECd3yiFd8fX4fAvpNJEJq/UbMB1NLsjg==
+  dependencies:
+    prop-types "^15.7.2"
 
 react-refresh@^0.8.3:
   version "0.8.3"
