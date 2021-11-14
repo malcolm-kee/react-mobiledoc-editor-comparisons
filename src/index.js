@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { Container, Editor } from "react-mobiledoc-editor";
 import App from './App';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { Container, Toolbar, Editor } from "react-mobiledoc-editor";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Container>
-      <Toolbar />
       <Editor />
     </Container>
   </React.StrictMode>,
